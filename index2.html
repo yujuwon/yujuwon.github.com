@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="yujuwon page">
+    <meta name="author" content="yujuwon">
+
+    <title>yujuwon Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/half-slider.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="navbar-brand" href="index.php">Yu ju won</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://yujuwon.tistory.com">Career</a></li>
+            <li><a href="#services">HTML5</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+          <li data-target="#myCarousel" data-slide-to="1"> </li>
+          <li data-target="#myCarousel" data-slide-to="2"> </li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="fill" style="background-image:url('imgs/DBMonitor.png');"> </div>
+            <div class="carousel-caption"> </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('imgs/inspector.png');"> </div>
+            <div class="carousel-caption"> </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('imgs/touch.png');"> </div>
+            <div class="carousel-caption"> </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"> </span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"> </span>
+        </a>
+    </div>
+
+    <div class="container">
+    		<div class="row section">
+        		<div class="col-lg-4 well well-lg" style="padding-top: 0px;">
+          		<h3><span class="glyphicon glyphicon-tag"> Skills</span></h3>
+          		<div class="row">
+          			<div class="col-lg-5">
+          				<span class="label label-success">C, C++, C#</span>
+          			</div>
+          			<div class="progress">
+          				<div class="progress-bar" style="width:90%"> </div>
+          			</div>
+        			</div>
+        			
+        			<div class="row">
+          			<div class="col-lg-5">
+          				<span class="label label-success">PYTHON, DJANGO</span>
+          			</div>
+          			<div class="progress">
+          				<div class="progress-bar" style="width:70%"> </div>
+          			</div>
+        			</div>
+        			
+        			<div class="row">
+          			<div class="col-lg-5">
+          				<span class="label label-success">HTML, JAVASCRIT</span>
+          			</div>
+          			<div class="progress">
+          				<div class="progress-bar" style="width:60%"> </div>
+          			</div>
+        			</div>
+        			
+        			<div class="row">
+          			<div class="col-lg-5">
+          				<span class="label label-success">PHP</span>
+          			</div>
+          			<div class="progress">
+          				<div class="progress-bar" style="width:50%"> </div>
+          			</div>
+        			</div>
+        			
+        			<div class="row">
+          			<div class="col-lg-5">
+          				<span class="label label-success">JAVA</span>
+          			</div>
+          			<div class="progress">
+          				<div class="progress-bar" style="width:50%"> </div>
+          			</div>
+        			</div>
+        		</div>
+      		<div class="col-lg-8">
+      			<h3><span class="glyphicon glyphicon-folder-open"> Education</span></h3>
+      			<table class="table table-striped">
+      				<tbody>
+      					<tr>
+      						<td>1997.03 - 2000.02</td>
+      						<td>Gyenam High School</td>
+      						<td> </td>
+      					</tr>
+      					<tr>
+      						<td>2000.03 - 2007.02</td>
+      						<td>Sangmyung university</td>
+      						<td>bachelor's degree </td>
+      					</tr>
+      					<tr>
+      						<td>2007.03 - 2009.02</td>
+      						<td>Sangmyung graduate school</td>
+      						<td>Master of Science</td>
+      					</tr>
+      				</tbody>
+      			</table>
+      		</div>
+      
+      </div>
+      
+      <hr>
+      
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; yujuwon 2013</p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+      $('.carousel').carousel({
+        interval: 5000 //changes the speed
+      });
+    </script>
+  </body>
+</html>
